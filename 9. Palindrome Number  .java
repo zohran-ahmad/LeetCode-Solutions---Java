@@ -7,10 +7,6 @@ class Solution {
             reverse = reverse*10 + lastDigit;
             x /= 10;
         }
-        if (myNum==reverse) {
-            return true;
-        } else {
-            return false;
-        }
+        return myNum == reverse;
     }
 }
